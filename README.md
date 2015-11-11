@@ -1,2 +1,2 @@
 # be-mean-instagram-mongodb
-Repositório de exercícios do curso MongoDB - Be-MEAN
+Repositório de exercícios e projeto final do curso MongoDB - Be-MEAN
