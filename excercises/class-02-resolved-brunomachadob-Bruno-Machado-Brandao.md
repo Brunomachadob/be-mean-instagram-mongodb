@@ -81,10 +81,9 @@ k its energy. Without it, this POKMON would be unstoppable.", "attack" : 100, "d
 ```
 
 ## Meowth (passo 6)
+```
 > var query = {name: 'Meowth'};
-
 > var poke = db.pokemons.findOne(query)
-
 > poke
 {
     "_id" : ObjectId("564338df4a8a3633ea3b0968"),
@@ -94,11 +93,11 @@ k its energy. Without it, this POKMON would be unstoppable.", "attack" : 100, "d
     "defense" : 35,
     "height" : 4
 }
-
+```
 ## Atualização do Meowth (passo 6)
+```
 > poke.description = "Descrição alterada";
-
 Descrição alterada
-
 > db.pokemons.save(poke)
 WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+```
